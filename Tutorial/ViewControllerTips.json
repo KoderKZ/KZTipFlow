@@ -1,0 +1,20 @@
+[
+ {
+ "viewName":"settingButton",
+ "tip":"This is the settings button",
+ "tag":"1001",
+ "type":"spotlight"
+ },
+ {
+ "viewName":"playButton",
+ "tip":"This is the play button",
+ "tag":"1002",
+ "type":"callout"
+ },
+ {
+ "viewName":"moreButton",
+ "tip":"Press this to go to more",
+ "tag":"1003",
+ "type":"spotlight"
+ }
+ ]

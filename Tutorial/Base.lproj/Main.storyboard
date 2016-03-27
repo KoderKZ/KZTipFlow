@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q90-8H-rPN">
+                                <rect key="frame" x="261" y="551" width="78" height="41"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="02H-Dd-L9V"/>
+                                </constraints>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoC-ih-Uar">
+                                <rect key="frame" x="20" y="551" width="78" height="41"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="j3V-Oa-oo7"/>
+                                </constraints>
+                                <state key="normal" title="Settings">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="KZTipFlow Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5t-1S-x7D">
+                                <rect key="frame" x="247" y="20" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXo-t2-DP5">
+                                <rect key="frame" x="502" y="551" width="78" height="41"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="0gm-0E-4MI"/>
+                                </constraints>
+                                <state key="normal" title="More">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FoC-ih-Uar" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="531" id="BGz-vP-gJh"/>
+                            <constraint firstItem="q90-8H-rPN" firstAttribute="baseline" secondItem="CXo-t2-DP5" secondAttribute="firstBaseline" id="C9y-l6-BgA"/>
+                            <constraint firstItem="q90-8H-rPN" firstAttribute="baseline" secondItem="FoC-ih-Uar" secondAttribute="firstBaseline" id="E3w-XZ-Rxn"/>
+                            <constraint firstItem="q90-8H-rPN" firstAttribute="top" secondItem="CXo-t2-DP5" secondAttribute="top" id="Hgb-nV-k9X"/>
+                            <constraint firstItem="q90-8H-rPN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JYB-Mt-iVz"/>
+                            <constraint firstItem="FoC-ih-Uar" firstAttribute="baseline" secondItem="q90-8H-rPN" secondAttribute="firstBaseline" id="OQj-bu-VDX"/>
+                            <constraint firstItem="CXo-t2-DP5" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PP6-dp-tuB"/>
+                            <constraint firstItem="p5t-1S-x7D" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="QBy-lN-tey"/>
+                            <constraint firstItem="q90-8H-rPN" firstAttribute="centerX" secondItem="p5t-1S-x7D" secondAttribute="centerX" id="V1q-Of-pci"/>
+                            <constraint firstItem="FoC-ih-Uar" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZO7-jG-jcK"/>
+                            <constraint firstItem="q90-8H-rPN" firstAttribute="baseline" secondItem="CXo-t2-DP5" secondAttribute="baseline" id="aw3-Og-jkW"/>
+                            <constraint firstItem="FoC-ih-Uar" firstAttribute="top" secondItem="q90-8H-rPN" secondAttribute="top" id="fhk-2e-H5t"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FoC-ih-Uar" secondAttribute="bottom" constant="8" symbolic="YES" id="ykC-eJ-RCU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="BGz-vP-gJh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="moreButton" destination="CXo-t2-DP5" id="RoJ-4s-6Rn"/>
+                        <outlet property="playButton" destination="q90-8H-rPN" id="OP3-FP-KDW"/>
+                        <outlet property="settingButton" destination="FoC-ih-Uar" id="awh-Zn-6gv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="427"/>
+        </scene>
+    </scenes>
+</document>
